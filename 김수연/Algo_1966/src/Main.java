@@ -26,7 +26,6 @@ public class Main {
 
             int count = 0;
             int temp = arr.get(M);
-            System.out.println("temp: " + temp);
 
             while (true) {
                 if (arr.isEmpty())
