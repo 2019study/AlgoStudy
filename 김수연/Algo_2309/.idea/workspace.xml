@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35810c6-083f-40df-b7e1-bd8e77f7fea5" name="Default Changelist" comment="">
+    <list default="true" id="8f84372f-0640-44fa-878e-42a5fa557839" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo_12852/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_12852/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,12 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#405#414#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -42,24 +39,47 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/../Algo_9267/Algo_9267.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="1590" />
     <option name="width" value="1622" />
     <option name="height" value="1732" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algo_2309" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo_2309" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algo_2309" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo_2309" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -78,7 +98,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Algo_1158" />
+      <module name="Algo_2309" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -92,28 +112,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c35810c6-083f-40df-b7e1-bd8e77f7fea5" name="Default Changelist" comment="" />
-      <created>1578113693419</created>
+      <changelist id="8f84372f-0640-44fa-878e-42a5fa557839" name="Default Changelist" comment="" />
+      <created>1578121106847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578113693419</updated>
-      <workItem from="1578113702309" duration="1384000" />
+      <updated>1578121106847</updated>
+      <workItem from="1578121110990" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1384000" />
+    <option name="totallyTimeSpent" value="253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1613" height="873" extended-state="7" />
-    <editor active="true" />
+    <frame x="795" y="0" width="811" height="866" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12090032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -144,12 +163,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#414#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

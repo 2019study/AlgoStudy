@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2ee354-b436-4280-9850-18cd0014fd63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/김수연/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../김수연.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +39,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1590" />
+    <option name="x" value="-10" />
     <option name="width" value="1622" />
     <option name="height" value="1732" />
   </component>
@@ -64,6 +55,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -101,16 +93,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578114203346</updated>
-      <workItem from="1578114209222" duration="46000" />
+      <workItem from="1578114209222" duration="683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46000" />
+    <option name="totallyTimeSpent" value="683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="0" width="811" height="866" extended-state="0" />
-    <editor active="true" />
+    <frame x="-5" y="0" width="811" height="866" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

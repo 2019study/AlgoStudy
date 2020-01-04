@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35810c6-083f-40df-b7e1-bd8e77f7fea5" name="Default Changelist" comment="">
+    <list default="true" id="f9cdf98b-575e-41b4-9205-987afa754802" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_1158/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algo_12852/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_12852/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,16 +17,12 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#405#414#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -42,8 +39,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1590" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="642" />
+    <option name="y" value="516" />
     <option name="width" value="1622" />
     <option name="height" value="1732" />
   </component>
@@ -53,15 +51,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algo_9267" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo_9267" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,45 +89,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Algo_1158" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c35810c6-083f-40df-b7e1-bd8e77f7fea5" name="Default Changelist" comment="" />
-      <created>1578113693419</created>
+      <changelist id="f9cdf98b-575e-41b4-9205-987afa754802" name="Default Changelist" comment="" />
+      <created>1578121222641</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578113693419</updated>
-      <workItem from="1578113702309" duration="1384000" />
+      <updated>1578121222641</updated>
+      <workItem from="1578121226210" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1384000" />
+    <option name="totallyTimeSpent" value="106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1613" height="873" extended-state="7" />
-    <editor active="true" />
+    <frame x="321" y="258" width="811" height="866" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12090032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -144,12 +145,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#414#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
