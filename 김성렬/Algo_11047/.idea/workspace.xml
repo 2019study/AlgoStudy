@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b11962dd-7237-4570-ac17-1153baecac50" name="Default Changelist" comment="" />
+    <list default="true" id="283e199b-ad16-4090-862b-0c201b6c0d21" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Vus3uBsKYFS6iqYAM8ZxvPlVHy" />
+  <component name="ProjectId" id="1Vv6vqCiPt4JA7R3QZnefPymiLk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +28,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,14 +49,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b11962dd-7237-4570-ac17-1153baecac50" name="Default Changelist" comment="" />
-      <created>1578114118327</created>
+      <changelist id="283e199b-ad16-4090-862b-0c201b6c0d21" name="Default Changelist" comment="" />
+      <created>1578121454513</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578114118327</updated>
-      <workItem from="1578114121930" duration="52000" />
-      <workItem from="1578119559629" duration="1406000" />
-      <workItem from="1578121371691" duration="51000" />
+      <updated>1578121454513</updated>
+      <workItem from="1578121457671" duration="23000" />
     </task>
     <servers />
   </component>
@@ -65,17 +62,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="74" key="#Project_Structure" timestamp="1578114131124">
+    <state x="722" y="71" key="#Project_Structure" timestamp="1578121460325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578114131124" />
-    <state x="729" y="154" key="FileChooserDialogImpl" timestamp="1578121398658">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="729" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578121398658" />
-    <state x="360" y="23" key="new project wizard" timestamp="1578121419612">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="360" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578121419612" />
+    <state x="722" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578121460325" />
   </component>
 </project>

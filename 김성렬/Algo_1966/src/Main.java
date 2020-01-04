@@ -25,6 +25,7 @@ public class Main {
             else
                 problem.add(new document(input.nextInt()).setMe());
         }
+
         int flag = 1;
 
         while (!problem.isEmpty()) {
@@ -36,8 +37,8 @@ public class Main {
                     break;
                 }
             }
-            if(it.hasNext() == false){
-                if(isMe.getMe()==true)
+            if (it.hasNext() == false) {
+                if (isMe.getMe() == true)
                     return flag;
                 else
                     flag++;
