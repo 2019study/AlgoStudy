@@ -1,15 +1,9 @@
 # AlgoStudy
 Winter MoGakCo Study
 
-## 조원 URL
-201502027 김성렬 : https://github.com/2019study/AlgoStudy/tree/master/김성렬
-
-201502029 김수연 : https://github.com/2019study/AlgoStudy/tree/master/김수연
-
-201602060 정유성 : https://github.com/2019study/AlgoStudy/tree/master/정유성
-
 ### 1일차 모각코 활동
-![모각코 1일차](https://user-images.githubusercontent.com/54872857/71540009-0f777700-2988-11ea-86e6-5a359194c508.jpg)
+서울에 가게 되어 못하였습니다.
+따로 집과 pc방을 오가며 git 연동을 하였습니다.
 
-- 스터디 첫 날. 스터디를 하기로 했던 목표는 같이 백준 문제를 풀어나가는 것이였지만 서로 생각이 달랐기에 조율할 필요가 있었다. 또한 github가 익숙하지 않은 사람도 있었기에 git과 자신의 tool에 연결하는 시간이 필요했다.
-- 첫주는 서로의 조율과 기본 설정에 집중하기로 했다. 이후 다음주에 어떤 문제를 풀 것인지 정한 후 종료했다.
+### 2주차 모각코 활동
+안타깝게도 집에서 해온 git연동이 공동 프로젝트가 아닌 개인 repo여서 팀원들의 도움을 받아 해결했습니다. 또한 이번 시간에는 저번에 함께 풀어오기로 한 문제들에 대해서 토의 할 예정입니다.
