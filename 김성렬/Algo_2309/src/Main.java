@@ -8,7 +8,7 @@ public class Main {
             dwarf.add(sc.nextInt());
         Collections.sort(dwarf);
         int sum = 0;
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 9; i++)o
             sum += dwarf.get(i);
         for (int i = 0; i < 9; i++) {
             for (int j = i + 1; j < 9; j++) {

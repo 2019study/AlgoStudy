@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algo_12852" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -69,6 +69,7 @@
       <workItem from="1578121442272" duration="93000" />
       <workItem from="1578342182396" duration="2072000" />
       <workItem from="1578344745223" duration="270000" />
+      <workItem from="1578354015709" duration="606000" />
     </task>
     <servers />
   </component>
@@ -80,10 +81,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1001" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1578342987182" />
-    <state x="932" y="168" key="FileChooserDialogImpl" timestamp="1578345015167">
+    <state x="932" y="168" key="FileChooserDialogImpl" timestamp="1578356696424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="932" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578345015167" />
+    <state x="932" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578356696424" />
     <state width="725" height="208" key="GridCell.Tab.0.bottom" timestamp="1578345016663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

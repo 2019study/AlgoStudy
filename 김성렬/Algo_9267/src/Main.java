@@ -8,9 +8,9 @@ public class Main {
         double sum = input.nextDouble();
 
         if (checkOK(sum, a, b))
-            System.out.println("YES");
+            System.out.print("YES");
         else
-            System.out.println("NO");
+            System.out.print("NO");
     }
 
     public static boolean checkOK(double sum, double a, double b) {
@@ -39,7 +39,7 @@ public class Main {
                 if ((tempsum % a == 0) || (tempsum % b == 0) || (tempsum % (a + b) == 0))
                     return true;
             }
-        }else if(a == 0 && b == 0 && sum == 0)
+        }else if(a == 0 || b == 0)
             return true;
         return false;
     }
