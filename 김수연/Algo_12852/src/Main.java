@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Queue;
+import java.util.LinkedList;
 
 public class Main {
     private static class tree {
@@ -67,13 +69,13 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 선언
         int N = Integer.parseInt(br.readLine());
 
-        ArrayList<tree> arr = new ArrayList<tree>();
+        Queue<tree> arr = new LinkedList<tree>();
 
         tree tr = new tree(N);
         arr.add(tr);
 
         while (true) {
-            tr = arr.get(0);
+            tr = arr.poll();
             int data = tr.data;
 
             tree leftT = tr.makeLeftTree(data);
@@ -99,7 +101,6 @@ public class Main {
                 if (rightT.data == 1)
                     break;
             }
-            arr.remove(0);
         }
 
         ArrayList<Integer> path = new ArrayList<Integer>();
