@@ -25,7 +25,7 @@ public class Main {
             }
             if ((this._me % 2) == 0) {
                 this.two = new tree(this._me / 2, this);
-                makeList.add(this.two);
+                makeList.add(this.two);0
             }
             if ((this._me % 3) == 0) {
                 this.three = new tree(this._me / 3, this);
