@@ -1,4 +1,3 @@
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Main {
@@ -7,29 +6,43 @@ public class Main {
         // 9267번 A + B 문제
         Scanner scan = new Scanner(System.in);
 
-        BigInteger a = scan.nextBigInteger();
-        BigInteger b = scan.nextBigInteger();
-        BigInteger s = scan.nextBigInteger();
+        long a = scan.nextLong();
+        long b = scan.nextLong();
+        long s = scan.nextLong();
 
-        BigInteger zero = BigInteger.ZERO;
-        BigInteger one = BigInteger.ONE;
+        // 0 처리
+        if (a == 0 && b == 0) {
+            if (s == 0)
+                System.out.println("YES");
+            else
+                System.out.println("NO");
+        } else if (a == 0) {
+            if (s == 0 || s % b == 0)
+                System.out.println("YES");
+            else
+                System.out.println("NO");
+        } else if (b == 0) {
+            if (s == 0 || s % a == 0)
+                System.out.println("YES");
+            else
+                System.out.println("NO");
+        }
 
-        if ((a.add(b)).equals(s))
+        // 연산이 필요없는 경우
+        else if (a == s || b == s)
             System.out.println("YES");
 
-        else if ((a.add(b)).compareTo(s) == 1 || (a.equals(zero) && b.equals(zero)))
+        // 연산이 한번만 이루어지는 경우
+        else if (a + b == s)
+            System.out.println("YES");
+
+        // 연산하기
+        else if (a + b > s)
             System.out.println("NO");
 
         else {
-            if (a.equals(b)) {
-                if (((s.divide(a)).multiply(a)).equals(s))
-                    System.out.println("YES");
-                else
-                    System.out.println("NO");
-            }
-
-            BigInteger max, min;
-            if (a.compareTo(b) == 1) {
+            long max, min;
+            if (a > b) {
                 max = a;
                 min = b;
             } else {
@@ -37,15 +50,21 @@ public class Main {
                 min = a;
             }
 
-            BigInteger quotient = s.divide(max);
-            while (!(quotient.compareTo(zero) == -1)) {
-                BigInteger index = (s.subtract(max.multiply(quotient))).divide(min);
-                if (s.equals((max.multiply(quotient)).add(min.multiply(index)))) {
+            s = s - (a + b);
+            long quotient = s / max;
+            long temp;
+            while (quotient >= 0) {
+                temp = (s - max * quotient) / min;
+                if (s == max * quotient + min * temp) {
                     System.out.println("YES");
                     break;
+                } else {
+                    quotient--;
+                    if (quotient == -1) {
+                        System.out.println("NO");
+                        break;
+                    }
                 }
-                else
-                    quotient = quotient.subtract(one);
             }
         }
     }
