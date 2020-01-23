@@ -21,7 +21,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algo_9267" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
@@ -73,6 +73,7 @@
       <workItem from="1578341349813" duration="733000" />
       <workItem from="1578345056980" duration="80000" />
       <workItem from="1578717139208" duration="28000" />
+      <workItem from="1579070795130" duration="350000" />
     </task>
     <servers />
   </component>
@@ -92,11 +93,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1001" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1578341937232" />
-    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1578717165441">
+    <state x="592" y="218" key="FileChooserDialogImpl" timestamp="1579071056695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577511863803" />
-    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578717165441" />
+    <state x="592" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579071056695" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1578118745340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -125,10 +126,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="459" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578341353343" />
-    <state x="360" y="26" key="new project wizard" timestamp="1578113764959">
+    <state x="360" y="26" key="new project wizard" timestamp="1579071144986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="26" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578113764959" />
+    <state x="360" y="26" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579071144986" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578342040672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
