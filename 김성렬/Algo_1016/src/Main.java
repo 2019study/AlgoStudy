@@ -6,7 +6,13 @@ public class Main {
         long min = input.nextLong();
         long max = input.nextLong();
         long count = max - min + 1;
-        double ans = Math.floor(Math.sqrt(max)) - (min == 1 ?Math.floor(Math.sqrt(min))-1:Math.floor(Math.sqrt(min)));
+        double ans = 0;
+        if(min == 1){
+            ans = Math.floor(Math.sqrt(max));
+        }else {
+            ans = Math.floor(Math.sqrt(max)) - Math.floor(Math.sqrt(min));
+        }
+
         System.out.println((long) (count - ans));
     }
 }
