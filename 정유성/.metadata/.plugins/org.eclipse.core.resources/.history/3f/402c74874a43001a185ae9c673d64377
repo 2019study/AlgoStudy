@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		String s = input.next();
+		int[] sample = new int[s.length()];
+		int result = 0;
+	
+		for (int i = 0; i < s.length(); i++) {
+			sample[i] = (int) s.charAt(i) - 65;
+			
+			System.out.print(sample[i]/3+2+" ");
+			if (sample[i] / 3 + 2 > 7) {
+				System.out.println("!");
+			} else {
+				result = result+sample[i]+1;
+				System.out.println();
+			}
+			
+		}
+		System.out.println(result);
+	}
+
+}

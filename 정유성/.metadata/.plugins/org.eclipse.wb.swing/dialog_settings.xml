@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.font.FontDialog">
+		<item value="671" key="x"/>
+		<item value="577" key="width"/>
+		<item value="197" key="y"/>
+		<item value="635" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.swing.model.property.editor.models.tree.TreeModelDialog">
+		<item value="628" key="x"/>
+		<item value="663" key="width"/>
+		<item value="195" key="y"/>
+		<item value="640" key="height"/>
+	</section>
+</section>

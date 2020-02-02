@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	static class edge{
+		
+	}
+	static class graph {
+		private ArrayList<ArrayList<String>> listGraph;
+
+		// 그래프 초기화
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt();
+		char[][] coordinate = new char[R][C];
+		for(int i =0; i<R;i++){
+			for(int j = 0;j<C;j++){
+				char s = input.next().charAt(0);
+				coordinate[i][j] = s;
+				switch(s){
+				case '#':
+					break;
+				case 'J':
+					break;
+				case '.':
+					break;
+				case 'F':
+					break;
+					
+				}
+			}
+		}
+
+	}
+
+}

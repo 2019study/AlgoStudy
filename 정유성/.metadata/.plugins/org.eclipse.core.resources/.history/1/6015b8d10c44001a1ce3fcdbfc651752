@@ -1,0 +1,61 @@
+import java.util.Scanner;
+import java.util.LinkedList;
+
+public class Main {
+
+	public class node {
+		String data = null;
+		node upper = null;
+		node lower = null;
+		node left = null;
+		node right = null;
+		node parent = null;
+
+		public node(String data) {
+			this.data = data;
+		}
+
+		public node(String data, node parent) {
+			this.parent = parent;
+			this.data = data;
+		}
+
+		public node(String data, node parent, node upper, node lower, node left, node right) {
+			this.data = data;
+			this.upper = upper;
+			this.lower = lower;
+			this.left = left;
+			this.right = right;
+		}
+
+		public void setData(String data) {
+			this.data = data;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt();
+		String[][] coordinate = new String[C][R];
+		String firstPosition = null;
+		for (int i = 0; i < C; i++) { // data set 받기
+			for (int j = 0; j < R; j++) {
+				String s = input.next();
+				coordinate[i][j] = s;
+				if (s.equals("J"))
+					firstPosition = s;
+
+			}
+		}
+		int count = 0;
+		node root;
+		root.setData("s");
+		while (true) {
+
+			break;
+		}
+	}
+
+}

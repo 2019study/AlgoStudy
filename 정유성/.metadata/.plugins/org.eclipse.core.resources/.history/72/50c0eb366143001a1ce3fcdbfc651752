@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		long min = input.nextLong();
+		long max = input.nextLong();
+		boolean[] resultSet = new boolean[max-min+1];
+		long maxDecimal = (long) Math.sqrt(max);
+		
+		for (long i = min; min < max + 1; min++) {
+			resultSet[(int) (i-min)] = false;
+		}
+		//
+		// System.out.println(a);
+		//
+	}
+
+}

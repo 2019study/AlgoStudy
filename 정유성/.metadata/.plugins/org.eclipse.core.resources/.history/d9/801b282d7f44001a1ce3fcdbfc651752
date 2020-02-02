@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+
+	static class node {
+		node upper, lower, left, right, parent;
+		char data;
+		
+		public 
+	}
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+	}
+
+}

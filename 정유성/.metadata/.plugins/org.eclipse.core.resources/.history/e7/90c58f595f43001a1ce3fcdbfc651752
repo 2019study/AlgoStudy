@@ -1,0 +1,27 @@
+import java.util.Scanner;
+import java.math.BigInteger;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+//		BigInteger min, max;
+//		min = input.nextBigInteger();
+//		max = input.nextBigInteger();
+//		System.out.println(min);
+//		System.out.println(max);
+		
+		//int min = input.nextInt();
+		//int max = input.nextInt();
+		for(int i = 2;i<20;i++){
+			System.out.print(i*i+" ");
+			if(i%10==0)
+				System.out.println();
+		}
+		System.out.println();
+		//double a = Math.sqrt(max);
+		System.out.println(a);
+//		
+	}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+import java.util.LinkedList;
+
+public class Main {
+
+	public class tree {
+		
+		
+		public class node{
+			String data;
+			node upper, lower, left, right, parent;			
+			public node(String data,node parent){
+				this.parent = parent;
+				this.data = data;
+				
+			}
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt();
+		String[][] coordinate = new String[C][R];
+
+		for (int i = 0; i < C; i++) { // data set 받기
+			for (int j = 0; j < R; j++)
+				coordinate[i][j] = input.nextLine();
+		}
+		int count = 0;
+		while (true) {
+
+			break;
+		}
+	}
+
+}

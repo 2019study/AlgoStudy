@@ -1,0 +1,47 @@
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Queue;
+import java.util.Collection;
+import java.util.LinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int L = input.nextInt();
+		int C = input.nextInt();
+		int MaximumCount = 1;
+		for (int i = C; i > (C - L); i--)
+			MaximumCount = MaximumCount * i;
+
+		for (int i = L; i > 0; i--)
+			MaximumCount = MaximumCount / i;
+		char[] chars = new char[C];
+		char[][] forPop = new char[L][C];
+		
+		String s = input.next();
+		for (int i = 0; i < C; i++)
+			chars[i] = s.charAt(i);
+
+		Arrays.sort(chars); // 알파벳 정렬
+		for (int i = 0; i < L; i++) {
+			System.arraycopy(chars, 0, forPop[i], 0, C);
+		}
+
+		
+
+		// for(int i = 0;i<)
+		
+		int cursor = L - 1;
+		for (int i = 0; i < MaximumCount; i++) {
+			for (int j = 0; j < L; j++) {
+				s = s + chars[j];
+			}
+			cursor++;
+
+		}
+
+	}
+
+}

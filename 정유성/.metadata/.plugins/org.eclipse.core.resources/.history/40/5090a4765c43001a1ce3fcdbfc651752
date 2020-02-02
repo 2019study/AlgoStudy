@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.math.BigInteger;
+public class Main {
+	public static int count(int min,int max){
+		return 0;
+	}
+
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		BigInteger min;
+		min = input.nextBigInteger();
+		
+		System.out.println(count(min,max));
+	}
+}

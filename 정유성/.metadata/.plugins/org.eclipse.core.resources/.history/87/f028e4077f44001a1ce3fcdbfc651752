@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+	
+	public class node{
+		node upper,lower, left, right;
+		Char data;
+	}
+	
+	
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+	}
+
+}

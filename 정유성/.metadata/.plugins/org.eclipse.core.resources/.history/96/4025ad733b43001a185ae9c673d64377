@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import java.util.Arrays;
+import java.ArrayList;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int L = input.nextInt();
+		int C = input.nextInt();
+		String[] chars = new String[C];
+		
+		for (int i = 0; i < C; i++){
+			chars[i] = input.next();
+		}
+		
+		Arrays.sort(chars); //알파벳 정렬
+		for(int i=0;i<L;i++){
+			System.out.println(chars[i]);
+		}
+	
+	}
+
+}

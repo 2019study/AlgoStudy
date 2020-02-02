@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Main {
+	static class graph {
+	    private String[][] arrGraph;
+	 
+	    // 그래프 초기화
+	    public graph(int R, int C) {	        
+	        this.arrGraph = new String[R+1][C+1];
+	    }
+	 
+	    // 그래프 return
+	    public String[][] getGraph() {
+	        return this.arrGraph;
+	    }
+	 
+	    public void add(int x, int y,String data) {
+	    	if(!data.equals("#")){
+	    		 arrGraph[x][y] = arrGraph[y][x] = data;
+	    	}	       
+	    }
+	    public void remove(){
+	    	
+	    }
+	    
+	    // 그래프 출력 (인접행렬)
+	    public void printGraphToAdjArr() {
+	        for(int i=0; i<arrGraph.length; i++) {
+	            for(int j=0; j<arrGraph[i].length; j++) {
+	                System.out.print(" " + arrGraph[i][j]);
+	            }
+	            System.out.println();
+	        }
+	    }
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt;
+        graph adjArr = new graph(R,C);
+        
+        
+        
+        adjArr.printGraphToAdjArr();
+
+	}
+
+}

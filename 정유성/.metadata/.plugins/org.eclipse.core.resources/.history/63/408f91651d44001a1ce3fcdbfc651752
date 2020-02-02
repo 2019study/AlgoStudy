@@ -1,0 +1,70 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	static class vertex{
+		int x;
+		int y;
+		char data;
+		public void setVertex(int x, int y, char data){
+			this.x = x;
+			this.y =y;
+			this.data = data;
+		}
+		public int getCoordinateX(){
+			return this.x;
+		}
+		public int getCoordinateY(){
+			return this.y;
+		}
+		public char getData(){
+			return this.data;
+		}
+	}
+	static class edge extends vertex{
+		vertex headVertex;
+		vertex tailVertex;
+		
+		public void setEdge(vertex headVertex,vertex tailVertex){
+			this.headVertex = headVertex;
+			this.tailVertex = tailVertex;
+		}
+		public vertex getHeadVertex(){
+			return this.headVertex;
+		}
+		public vertex getTailVertex(){
+			return this.tailVertex;
+		}
+		
+	}
+
+	static class graph extends edge{
+		private vertex[][] coordinateSet;
+		
+		public graph(int R,int C){
+			this.coordinateSet = new vertex[R][C];
+		}
+		public void addVertex(vertex newVertex){
+			
+		}
+
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt();
+		graph graph = new graph(R,C);
+		vertex tempVertex;
+		for(int i = 0; i<R;i++){
+			for(int j = 0;j<C;j++){
+				tempVertex.setVertex(i, j, input.next().charAt(0));
+			}
+		}
+		
+
+	}
+
+}

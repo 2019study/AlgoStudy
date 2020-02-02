@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	static class graph {
+		private ArrayList<ArrayList<String>> listGraph;
+
+		// 그래프 초기화
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int R = input.nextInt();
+		int C = input.nextInt();
+
+	}
+
+}

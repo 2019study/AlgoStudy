@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collection;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int L = input.nextInt();
+		int C = input.nextInt();
+		String[] chars = new String[C];
+		ArrayList<String> dataSet = new ArrayList<>();
+		
+		for (int i = 0; i < C; i++){
+			String s = input.next();
+			chars[i] = s;
+			dataSet.add(s);
+		}
+		
+		
+		Arrays.sort(chars); //알파벳 정렬
+		Collection.sort(dataSet);
+		for(int i=0;i<L;i++){
+			System.out.println(chars[i]);
+		}
+	
+	}
+
+}

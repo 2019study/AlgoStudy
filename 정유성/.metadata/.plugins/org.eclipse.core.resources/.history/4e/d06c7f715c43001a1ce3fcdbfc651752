@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.math.BigInteger;
+public class Main {
+	public static int count(int min,int max){
+		return 0;
+	}
+
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		BigInteger min = new BigInteger(i);
+		
+		System.out.println(count(min,max));
+	}
+}
