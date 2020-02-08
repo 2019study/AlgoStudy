@@ -1,0 +1,15 @@
+import java.util.TreeSet;
+
+public class Main {
+	public static int cal(int a, int b,int s){
+		if(a+b==s){
+			return -1;
+		}
+		return cal(a,b);
+	}
+	public static void main(String[] args){
+		if(cal(1,2,3)==-1)
+			System.out.println(yes);
+	}
+
+}

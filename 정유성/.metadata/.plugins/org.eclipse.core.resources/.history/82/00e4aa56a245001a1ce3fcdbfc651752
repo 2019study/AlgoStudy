@@ -1,0 +1,11 @@
+import java.util.TreeSet;
+
+public class Main {
+	public static int cal(int a, int b){
+		return cal(a,b);
+	}
+	public static void main(String[] args){
+		
+	}
+
+}

@@ -5,6 +5,10 @@ public class Main {
 	static class node {
 		node upper, lower, left, right, parent;
 		char data;
+		
+		public node(){
+			
+		}
 		 
 	}
 	static class tree extends node{
