@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c105d354-422c-4abf-8025-ff043102f32f" name="Default Changelist" comment="" />
+    <list default="true" id="160342cc-9cdf-4140-8fa9-dd05d2c88224" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1YNqGpPBzMJlPgUb8uGGkvJhDLj" />
+  <component name="ProjectId" id="1YWM7gklrUGWaM85cacaQFznYGY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,7 +20,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Algo_15552" />
+      <module name="Algo_1152" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -39,34 +39,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c105d354-422c-4abf-8025-ff043102f32f" name="Default Changelist" comment="" />
-      <created>1582793306126</created>
+      <changelist id="160342cc-9cdf-4140-8fa9-dd05d2c88224" name="Default Changelist" comment="" />
+      <created>1583053730708</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582793306126</updated>
+      <updated>1583053730708</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1582795004362">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1583054854087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582795004362" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1582795004362">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583054854087" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1583054854087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582795004362" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1582795004362">
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583054854087" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1583054854087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582795004362" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1582795004362">
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583054854087" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1583054854087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582795004362" />
-    <state x="0" y="139" key="new project wizard" timestamp="1582795002703">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582795002703" />
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583054854087" />
   </component>
 </project>
