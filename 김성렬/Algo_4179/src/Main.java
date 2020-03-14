@@ -50,9 +50,10 @@ public class Main {
         Jihun.add(J);
 
         int count = 0;
+
         while (!Jihun.isEmpty()) {
             for (int i = 0; i < Jihun.size(); i++) {
-                Tint temp = Jihun.poll();
+                Tint temp = Jihun.poll();`
                 map[temp.x][temp.y] = '.';
                 if (temp.x - 1 != -1) {
                     if (map[temp.x - 1][temp.y] == '.') {
@@ -121,6 +122,7 @@ public class Main {
             }
             count++;
         }
+
         if (count == 0) {
             System.out.println("IMPOSSIBLE");
         } else
