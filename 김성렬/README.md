@@ -2,7 +2,7 @@
 Winter MoGakCo Study
 
 Witer MogakCo Study
-test
+
 충남대학교 컴퓨터공학과 김성렬
 
 겨울방학 모각코 활동을 적을 깃허브 블로그입니다.
